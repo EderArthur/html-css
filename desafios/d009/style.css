@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font: roboto, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

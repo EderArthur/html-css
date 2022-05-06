@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Vou testar umas listas</h1>
+    <p><ol type="I" start="5">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol></p>
+    <p>agora uma listas com pontos</p>
+    <p><ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul></p>
+    <p>
+    <ol type="I" start="5">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+            <ol type="a">
+            <li>teste 1</li>
+            <li>teste 2</li>
+            <li>teste 3</li>
+    </ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+     </ol></p>
+     <hr>
+    <h2>Lista dos meus jogos favoritos</h2>
+    <ul>
+    <li>Nitendinho</li>
+    <ol>
+        <li>Mario Bros</li>
+            <ul>
+                <li>super mario bros 3</li>
+                <li>Mario: lost Levels</li>
+            </ul>
+        <li>ninja gaiden</li>
+            <ul>
+                <li>Ninja Gaiden III</li>
+            </ul>
+    </ol>
+    <li>Super Nitendo</li>
+    <ol>    
+        <li>Super Mario World</li>
+        <li>Donkey Kong</li>
+            <ul>
+                <li> Donkey Kong Country</li>
+                <li> Diddy Kong quest</li>
+             </ul>
+    </ol>
+    <li>Playstation 1</li>
+        <ol>
+        <li>Final Fantasy</li>
+            <ul>
+                <li>Final Fantasy VII</li>
+                <li>Final Fantasy IX</li>
+            </ul>
+        <li>Castelvania</li>
+            <ul>        
+                <li>simphony of the night</li>
+            </ul>
+        </ol>
+    </ul>
+    <blockquote> TMNC trabalho do CRLH pra criar uma lista</blockquote>
+    <hr>
+    <h2>lista de definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utlizado para criar o conteúdo de sites</dd>
+    
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a especificação de estilos em sites</dd>
+    
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividade em sites</dd>
+    </dl>
+    <hr>
+    <h2>Vamos criar um link</h2>
+    <p><a href="https://gustavoguanabara.github.io">Acesse meu perfil Github </a></p>
+    
+    <p><a href="https://www.w3schools.com/html/" hreflang="en"> Site da W3Schools</a></p>
+    
+    <p><a href="pagina2.html" target="_self">Continuar navegando no site</a></p>
+    
+    <p><a href="https://gustavoguanabara.github.io/" target="_blank">abrir perfil github em nova janela</a></p>
+    
+    <p><a href="pagina2.html" target="_self" rel="next">Continuar navegando no site</a></p>
+    
+    <p><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external" >abrir perfil github em nova janela</a></p>
+    
+    <p><a href="C:\Users\Kennedy\Documents\Programação\ex001\arquivos\meulivro.pdf" download="meulivro2" type="application/pdf"> Baixe aqui o PDF do meu livro</a></p>
+    <hr>
+    
+    <h2>Imagens flexiveis</h2>
+    
+    <picture>
+    <img src="imagens/imagem_g.png" alt="A imagem flexível funciona">
+    </picture>
+    
+    <picture>
+    <source media="(max-width: 1050px)" srcset="imagens/imagem_m.png" type="image/png">
+
+    <img src="imagens/imagem_g.png" alt="A imagem flexível funciona">
+    </picture>
+    
+    <picture>
+
+    <source media="(max-width: 750px)"
+    srcset="imagens/imagem_p.png" type="image/png">
+
+    <source media="(max-width: 1050px)" 
+    srcset="imagens/imagem_m.png" type="image/png">
+
+
+    <img src="imagens/imagem_g.png" alt="A imagem flexível">
+    
+    </picture>
+    <hr>
+    <h2>adicionar audio</h2>
+    <audio preload="metadata" controls auto loop>
+        <source src="audios/rojão.mp3" type="audio/mpeg">
+        <source src="audios/rojão.ogg" type="audio/ogg">
+        <source src="audios/rojão.wav" type="image/wav">
+        <p>Seu navegador não suporta audio <a href="arquivos/rojão.mp3" download="Rojão.mp3" type="audio/mpeg"></a></p>
+    </audio>
+    <hr>
+    <h2>Adicionar video</h2>
+    <video width="600" poster="videos/Captura de tela 2022-04-12 020006.jpg" controls autoplay>
+        <source src="videos/ela-meteu-um-russo-do-nada.webm" type="video/webm">
+        <source src="videos/ela-meteu-um-russo-do-nada.mp4" type="video/mp4">
+        <source src="videos/ela-meteu-um-russo-do-nada.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não conseguiu carregar o video</p>
+    </video><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4NKOQFMdc7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p style="text-align: center;"><a href="index.html" target="_self" rel="prev" >Pagina Anterior</a></p>
+<p style="text-align: center;"><a href="pagina3.html" target="_self" rel="next">Proxima Página</a></p>
+</body>
+</html>
