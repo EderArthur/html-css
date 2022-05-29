@@ -86,7 +86,7 @@ header> p{
     }
     main strong{
         background-color: var(--cor2);
-        position: ;
+        position: center;
     }
     main{
     min-width: 300px;
